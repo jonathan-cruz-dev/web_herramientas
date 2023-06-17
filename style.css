@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url(images/header.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: burlywood;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+nav {
+    background-color: blueviolet;
+    height: 50px;
+}
+
+nav ul li {
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: burlywood;
+}
+main {
+    margin-bottom: 100px;
+    width: 80%;
+    margin: auto ;
+}
+
+h1 {
+    color: rgb(246, 246, 246);
+
+    text-align: center;
+    padding-top: 100px;
+    font-size: 72px;
+    text-shadow: 2px 2px 10px #000;
+    background-color: #0000006e;
+    padding-bottom: 220px;
+}
+
+.cuadro {
+    width: 400px;
+    border-style: solid;
+    border-color: slateblue;
+    margin-top: 50px;
+    margin-left: 30px;
+
+/*     padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; */
+
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+section {
+    background-color: rgb(229, 224, 224);
+    min-height: 300px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+    padding: 32px;
+
+    border-radius: 10px;
+}
